@@ -2,7 +2,7 @@
 const About=()=>{
     return(
     <>
-        <section>
+        <section id="About">
             <p>About</p>
         </section>
     </>

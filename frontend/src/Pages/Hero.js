@@ -2,7 +2,7 @@
 const Hero=()=>{
     return(
     <>
-        <section>
+        <section id="Home">
             <p>hero</p>
         </section>
     </>
