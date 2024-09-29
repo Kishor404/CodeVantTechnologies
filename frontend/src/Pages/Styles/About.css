@@ -1,0 +1,52 @@
+.About-Cont{
+    background-color: var(--color2);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.About-R{
+    width: 40%;
+    padding-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.About-R div p{
+    padding-bottom: 40px;
+    text-align: justify;
+}
+
+.About-Img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.About-Img{
+    width: 500px;
+    height: 500px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.301);
+    border-radius: 20px;
+}
+.About-Title{
+    font-size: 18pt;
+}
+.About-p{
+    font-size: 12pt;
+}
+.About-R a{
+    color: black;
+    text-decoration: none;
+    font-size: 12pt;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: var(--bg);
+    transition: all 0.3s ease;
+}
+.About-R a:hover{
+    background-color: var(--color3);
+}

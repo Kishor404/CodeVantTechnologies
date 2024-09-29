@@ -11,8 +11,11 @@ const Navbar = () => {
     };
 
     return (
-        <>
-            <section>
+        <>  
+            <section className='Filler'>
+
+            </section>
+            <section id='Navbar'>
                 <div className="Navbar-Cont">
                     <div className="Navbar-L">
                         <div>
