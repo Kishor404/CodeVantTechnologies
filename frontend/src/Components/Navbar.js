@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div className="Navbar-Cont">
                     <div className="Navbar-L">
                         <div>
-                            <p>404 Labs</p>
+                            <p>CodeVant Technologies</p>
                         </div>
                     </div>
                     <div className="Navbar-R">

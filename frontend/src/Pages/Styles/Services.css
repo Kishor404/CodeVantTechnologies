@@ -63,7 +63,6 @@
 .Services-Card:hover .Services-Card-Text{
     max-height: 150px; 
     padding-bottom: 10px;
-    overflow: visible;
 }
 .Services-Card-All{
     display: grid;

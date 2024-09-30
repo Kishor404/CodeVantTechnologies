@@ -1,9 +1,12 @@
+import './Styles/Members.css'
 
 const Members=()=>{
     return(
     <>
         <section id="Members">
-            <p>Members</p>
+            <div>
+                <p>Members</p>
+            </div>
         </section>
     </>
     )
