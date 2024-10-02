@@ -1,7 +1,9 @@
 const Footer=()=>{
     return(
     <>
-        <div>Footer</div>
+        <footer>
+            <p>&copy; 2024 CodeVant Technologies. All rights reserved.</p>
+        </footer>
     </>
     )
 }

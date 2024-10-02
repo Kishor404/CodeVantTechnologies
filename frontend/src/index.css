@@ -13,6 +13,10 @@
   --color3:#bfdbf7;
   --color4:#e1e5f2;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 
 body {
   margin: 0;

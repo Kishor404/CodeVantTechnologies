@@ -5,7 +5,8 @@
     flex-direction: column;
     width: 100%;
     background-color: var(--color2);
-    padding-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 .Project-Card-Img{

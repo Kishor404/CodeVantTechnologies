@@ -124,3 +124,13 @@
         width: 80px;
     }
 }
+
+footer {
+    background-color: var(--color4); /* Footer background color */
+    color: black; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 15px 0; /* Padding for top and bottom */
+    position: relative; /* Adjust position if needed */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
