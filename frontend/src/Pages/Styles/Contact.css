@@ -12,11 +12,12 @@
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    width: 80%;
+    width: 90%;
     height: 80%;
 }
 .Contact-R{
     background-color:var(--color4);
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,7 +105,7 @@
 .Contact-L{
     width: 800px;
     color: black;
-    height: 90%;
+    height: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -152,3 +153,113 @@ button {
     justify-content: center; /* Center items horizontally */
 }
 
+
+
+@media (max-width:1550px) {
+    .Contact-Main{
+        height: 85%;
+    }
+    .Contact-L{
+        width: 700px;
+    }
+}
+
+@media (max-width:1460px) {
+    .Contact-Body p{
+        font-size: 12pt;
+    }
+    .Contact-L{
+        width: 600px;
+    }
+    .Contact-Social-Link{
+        font-size: 11pt;
+    }
+}
+
+@media (max-width:1360px) {
+    .Contact-Main{
+        height: 80%;
+    }
+    .Contact-Body p{
+        font-size: 11pt;
+    }
+    .Contact-L{
+        width: 500px;
+    }
+    .Contact-Social-Link{
+        font-size: 9pt;
+    }
+}
+@media (max-width:1250px) {
+    .Contact-Main{
+        height: 80%;
+    }
+    .Contact-Body p{
+        font-size: 11pt;
+    }
+    .Contact-L{
+        width: 500px;
+    }
+    .Contact-Social-Link{
+        font-size: 9pt;
+    }
+    .Contact-R input,.Contact-M{
+        width: 250px;
+    }
+}
+
+@media (max-width:1190px) {
+    .Contact-Main{
+        height: 75%;
+        width: 95%;
+    }
+    .Contact-Body p{
+        font-size: 11pt;
+    }
+    .Contact-L{
+        width: 500px;
+    }
+    .Contact-Social-Link{
+        font-size: 9pt;
+    }
+    .Contact-R input,.Contact-M{
+        width: 250px;
+    }
+    .Contact-Head p{
+        font-size: 14pt;
+    }
+    .Contact-M{
+        height: 100px;
+    }
+}
+@media (max-width:1111px) {
+    .Contact-Main{
+        height: 80%;
+        width: 95%;
+    }
+    .Contact-Body p{
+        font-size: 11pt;
+    }
+    .Contact-L{
+        width: 400px;
+        padding: 0px 40px;
+    }
+    .Contact-Social-Link{
+        font-size: 10pt;
+    }
+    .Contact-R input,.Contact-M{
+        width: 250px;
+    }
+    .Contact-Head p{
+        font-size: 14pt;
+    }
+    .Contact-M{
+        height: 100px;
+    }
+    .Contact-R form{
+        padding: 0px 40px;
+    }
+    .Contact-Social{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

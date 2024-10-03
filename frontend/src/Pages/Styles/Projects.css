@@ -10,7 +10,7 @@
 }
 
 .Project-Card-Img{
-    width:350px;
+    width:100%;
     position: relative;
     height: 200px;
 }
@@ -21,7 +21,7 @@
     filter: brightness(0.8);
 }
 .Project-Display{
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@
     border-radius: 20px;
     overflow: hidden;
     background-color: var(--color4);
-    width: 350px;
+    width: 100%;
     height: 450px;
     display: flex;
     justify-content: start;
@@ -41,7 +41,7 @@
     flex-direction: column;
 }
 .Project-Card-Text{
-    width: 320px;
+    width: 90%;
     text-align: justify;
     padding-top: 10px;
 }
@@ -63,7 +63,7 @@
     color: var(--color3);
 }
 .Project-Nav{
-    width: 30%;
+    width: 700px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -78,4 +78,40 @@
 .Project-Title{
     font-size: 16pt;
     color: white;
+}
+
+@media (max-width:1700px) {
+    .Project-Nav{
+        width: 700px;
+    }
+    .Project-Card{
+        height: 500px;
+    }
+}
+@media (max-width:1550px) {
+    .Project-Card{
+        font-size: 11pt;
+        height: 450px;
+    }
+
+}
+@media (max-width:1550px) {
+    .Project-Display{
+        width: 90%;
+    }
+    .Project-Card{
+        font-size: 11pt;
+        height: 400px;
+    }
+
+}
+@media (max-width:1130px) {
+    .Project-Display{
+        width: 90%;
+    }
+    .Project-Card{
+        font-size: 11pt;
+        height: 450px;
+    }
+
 }
