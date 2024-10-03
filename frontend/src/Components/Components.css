@@ -126,8 +126,8 @@
 }
 
 footer {
-    background-color: var(--color4); /* Footer background color */
-    color: black; /* Text color */
+    background-color: var(--color2); /* Footer background color */
+    color: white; /* Text color */
     text-align: center; /* Center align text */
     padding: 15px 0; /* Padding for top and bottom */
     position: relative; /* Adjust position if needed */
