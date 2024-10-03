@@ -50,3 +50,13 @@
 .About-R a:hover{
     background-color: var(--color3);
 }
+
+@media (max-width:1160px) {
+    .About-Img{
+        width: 450px;
+        height: 450px;
+    }
+    .About-p{
+        font-size: 11pt;
+    }
+}

@@ -63,6 +63,13 @@
 .Services-Card:hover .Services-Card-Text{
     max-height: 150px; 
     padding-bottom: 10px;
+    overflow-y: scroll;
+}
+.Services-Card:hover .Services-Card-Text::-webkit-scrollbar {
+    display: none;
+}
+.Services-Card:hover .Services-Card-Text {
+    scrollbar-width: none; /* Hide scrollbar */
 }
 .Services-Card-All{
     display: grid;
@@ -72,4 +79,43 @@
 .Services-Title{
     font-size: 18pt;
     padding: 20px 0px 50px 0px;
+}
+
+@media (max-width:1420px) {
+    .Services-Card{
+        width: 280px;
+        height: 280px;
+    }
+}
+@media (max-width:1350px) {
+    .Services-Card{
+        width: 250px;
+        height: 250px;
+    }
+    .Services-Card-Title{
+        font-size: 11pt;
+    }
+    .Services-Card-Text{
+        font-size: 10pt;
+    }
+}
+@media (max-width:1230px) {
+    .Services-Card-All{
+        grid-gap: 30px;
+    }
+    .Services-Card:hover .Services-Card-Text{
+        max-height: 120px;
+    }
+
+    
+}
+@media (max-width:1130px) {
+    .Services-Card{
+        width: 200px;
+        height: 200px;
+    }
+    .Services-Card-All{
+        grid-gap: 40px;
+    }
+    
 }

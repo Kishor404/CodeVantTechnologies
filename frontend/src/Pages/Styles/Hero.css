@@ -40,3 +40,26 @@
 .custom-shape-divider-bottom-1727621965 .shape-fill {
     fill: var(--color2);
 }
+
+@media (max-width:1490px) {
+    .Hero-L p{
+        font-size: 35pt;
+    }
+}
+
+@media (max-width:1390px) {
+    .Hero-L p{
+        font-size: 33pt;
+    }
+    .Hero-Img img{
+        width: 500px;
+    }
+}
+@media (max-width:1150px) {
+    .Hero-L p{
+        font-size: 28pt;
+    }
+    .Hero-Img img{
+        width: 400px;
+    }
+}
