@@ -60,3 +60,52 @@
         font-size: 11pt;
     }
 }
+
+@media (max-width:980px) {
+    .About-Cont{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .About-R{
+        width: 90%;
+        padding: 0;
+        align-items: center;
+    }
+    .About-R div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .About-R div p{
+        text-align: justify;
+    }
+    .About-Img{
+        width: 90%;
+        height: 300px;
+    }
+    .About-L{
+        width: 100%;
+        display: flex;
+        padding-bottom: 40px;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:550px) {
+    .About-R div p{
+        padding-bottom: 20px;
+    }
+    .About-R a{
+        padding: 10px 15px;
+        font-size: 11pt;
+    }
+    
+}
+
+@media (max-width:400px) {
+    .About-p{
+        font-size: 10pt;
+    }
+}

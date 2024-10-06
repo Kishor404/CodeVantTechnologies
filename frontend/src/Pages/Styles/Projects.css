@@ -115,3 +115,35 @@
     }
 
 }
+
+@media (max-width:980px) {
+    .Project-Card-Cont{
+        grid-template-columns:repeat(2, 1fr);
+        height: 450px;
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width:700px) {
+    .Project-Nav{
+        width: 90%;
+        justify-content: space-between;
+        display: none;
+    }
+    .Project-Nav button{
+        font-size: 10pt;
+    }
+    .Project-Card-Cont{
+        height: 850px;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+    }
+    .ProjectRex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Project-Card{
+        height: 400px;
+    }
+}

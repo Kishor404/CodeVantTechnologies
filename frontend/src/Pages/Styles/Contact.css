@@ -263,3 +263,84 @@ button {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+@media (max-width:980px) {
+    .Contact-Main{
+        flex-direction: column;
+    }
+    .Contact-Cont{
+        height: auto;
+    }
+    .Contact-L{
+        height: 400px;
+        width: 80%;
+        margin: 40px 0px;
+        padding: 40px;
+    }
+    .Contact-R{
+        padding: 40px;
+        width: 80%;
+        margin: 40px 0px;
+        height: 450px;
+    }
+    .Contact-R input, .Contact-M {
+        width: 100%;
+    }
+    .Contact-R form{
+        width: 100%;
+        padding: 0px;
+    }
+    .Contact-R div{
+        width: 90%;
+    }
+    .Contact-Social {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width:777px) {
+    .Contact-Social {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .Contact-L{
+        height: 500px;
+    }
+}
+
+
+@media (max-width:520px) {
+    .Contact-L,.Contact-R{
+        width: 75%;
+    }
+    .Contact-Social a{
+        font-size: 9pt;
+    }
+}
+
+@media (max-width:360px) {
+    .Contact-Body p{
+        font-size: 10pt;
+    }
+    .Contact-L{
+        padding: 30px;
+    }
+    .Contact-Head p{
+        font-size: 12pt;
+    }
+    .Contact-Social a{
+        font-size: 8pt;
+        padding: 0px;
+    }
+    .Contact-Social-Link img{
+        width: 15px;
+    }
+    .Contact-R input, .Contact-M{
+        font-size: 10pt;
+
+    }
+    .Contact-R{
+        padding: 30px;
+        margin-top: 10px;
+    }
+}
