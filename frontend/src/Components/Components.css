@@ -20,7 +20,7 @@
     height: 10vh;
 }
 .Navbar-R, .Navbar-R-Res{
-    width: 50%;
+    width: 45%;
 }
 .Navbar-R div, .Navbar-R-Res div{
     width: 100%;
@@ -42,9 +42,20 @@
     display: none;
 
 }
+.Navbar-L div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navbar-L div img{
+    width: 40px;
+    padding-right: 20px;
+}
 .Navbar-R-Res .Navbar-R-Res-Logo{
     display: none;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
+    justify-content: center;
+    align-items: center;
 }
 .Navbar-R-Res-Logo img{
     width: 100px;
@@ -122,6 +133,12 @@
     }
     .Navbar-R-Res-Logo img{
         width: 80px;
+    }
+    .Navbar-L div img{
+        display: none;
+    }
+    .Navbar-L div p{
+        font-size: 12pt;
     }
 }
 

@@ -1,6 +1,6 @@
 import './Components.css';
 import Menu from '../Assets/Icons/Hamburger.svg';
-import Logo from '../Assets/Icons/Hamburger.svg';
+import Logo from '../Assets/Images/Logo.png';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -19,6 +19,7 @@ const Navbar = () => {
                 <div className="Navbar-Cont">
                     <div className="Navbar-L">
                         <div>
+                            <img src={Logo} alt='Logo'/>
                             <p>CodeVant Technologies</p>
                         </div>
                     </div>
