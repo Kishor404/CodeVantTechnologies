@@ -20,7 +20,7 @@
     height: 10vh;
 }
 .Navbar-R, .Navbar-R-Res{
-    width: 45%;
+    width: 35%;
 }
 .Navbar-R div, .Navbar-R-Res div{
     width: 100%;
@@ -31,6 +31,7 @@
 .Navbar-R div a, .Navbar-R-Res div a{
     text-decoration: none;
     color: var(--color1);
+    font-size: 14pt;
 }
 .Navbar-R div a:hover ,.Navbar-R-Res div a:hover{
     color:var(--color2)

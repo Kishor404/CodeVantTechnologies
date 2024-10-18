@@ -53,50 +53,54 @@ const Contact = () => {
                                 <p>| CodeVant Technologies</p>
                             </div>
                             <div className="Contact-Body">
-                                <p>Sunt fugiat ut nostrud mollit pariatur proident minim commodo cillum proident mollit. Non excepteur cupidatat ullamco proident incididunt do ea magna consectetur incididunt velit id. Reprehenderit aliquip dolore aliquip quis anim mollit aliqua esse sunt enim. Amet et enim aliquip magna cupidatat. Exercitation anim excepteur amet reprehenderit ex ea quis officia quis excepteur velit. Non ad voluptate ut esse aute cillum.</p>
+                                <p>At CodeVant Technologies, we specialize in cutting-edge solutions across IoT, machine learning, and web & app development. Our team is dedicated to providing high-quality, scalable, and innovative products that meet the evolving needs of the tech industry. From concept to completion, we bring your ideas to life.</p>
                             </div>
                             <div className="Contact-Social">
-                                <a className="Contact-Social-Link" href="https://google.com" target="_blank" rel="noopener noreferrer">
+                                <a className="Contact-Social-Link" href="mailto:CodeVantTechnologies@gmail.com" target="_blank" rel="noopener noreferrer">
                                     <img src={Email} alt="Email"/>
                                     <p>CodeVantTechnologies@gmail.com</p>
                                 </a>
-                                <a className="Contact-Social-Link" href="https://google.com" target="_blank" rel="noopener noreferrer">
+                                <a className="Contact-Social-Link" href="https://wa.me/919871236504" target="_blank" rel="noopener noreferrer">
                                     <img src={Whatsapp} alt="Whatsapp"/>
                                     <p>+91 9871236504</p>
                                 </a>
-                                <a className="Contact-Social-Link" href="https://google.com" target="_blank" rel="noopener noreferrer">
+                                <a className="Contact-Social-Link" href="https://instagram.com/CodeVantTechnologies" target="_blank" rel="noopener noreferrer">
                                     <img src={Insta} alt="Instagram"/>
                                     <p>@CodeVantTechnologies</p>
                                 </a>
-                                <a className="Contact-Social-Link" href="https://google.com" target="_blank" rel="noopener noreferrer">
+                                <a className="Contact-Social-Link" href="https://linkedin.com/company/CodeVantTechnologies" target="_blank" rel="noopener noreferrer">
                                     <img src={Linkedin} alt="LinkedIn"/>
                                     <p>@CodeVantTechnologies</p>
                                 </a>
                             </div>
+
                         </div>
                         <div className="Contact-R">
-                            <p className="Contact-Form-Title">| Contact</p>
+                            <p className="Contact-Form-Title">| Get in Touch</p>
                             <div>
                                 <form onSubmit={sendEmail}>
                                     <input 
+                                        id="name"
                                         name="name" 
-                                        placeholder="Name" 
+                                        placeholder="Enter your full name" 
                                         type="text" 
                                         required 
                                         value={formData.name} 
                                         onChange={handleChange} 
                                     />
                                     <input 
+                                        id="email"
                                         name="email" 
-                                        placeholder="Email ID" 
+                                        placeholder="Enter your email address" 
                                         type="email" 
                                         required 
                                         value={formData.email} 
                                         onChange={handleChange} 
                                     />
                                     <textarea 
+                                        id="message"
                                         name="message" 
-                                        placeholder="Message" 
+                                        placeholder="Write your message here" 
                                         className="Contact-M" 
                                         required 
                                         value={formData.message} 
@@ -109,6 +113,7 @@ const Contact = () => {
                                 </form>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>

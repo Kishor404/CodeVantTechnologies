@@ -29,7 +29,6 @@ const Navbar = () => {
                             <a href="#About">About</a>
                             <a href="#Services">Services</a>
                             <a href="#Projects">Projects</a>
-                            <a href="#Members">Members</a>
                             <a href="#Contact">Contact</a>
                         </div>
                     </div>
@@ -40,7 +39,6 @@ const Navbar = () => {
                             <a href="#About">About</a>
                             <a href="#Services">Services</a>
                             <a href="#Projects">Projects</a>
-                            <a href="#Members">Members</a>
                             <a href="#Contact">Contact</a>
                         </div>
                         <div className="Navbar-R-Res-Logo">

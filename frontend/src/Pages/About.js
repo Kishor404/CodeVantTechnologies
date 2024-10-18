@@ -15,12 +15,14 @@ const About=()=>{
                 <div className="About-R">
                     <div>
                         <p className='About-Title'>| About Us</p>
-                        <p className='About-p'>Anim qui sit Lorem ut labore non dolor irure ullamco duis in in. Mollit dolore ad aliquip sit sint quis ut mollit nisi. Voluptate consectetur veniam ipsum exercitation ut nostrud esse quis. Eiusmod laborum aliqua dolore fugiat aliqua esse sit labore mollit. Ut labore est irure laboris est ipsum irure voluptate nulla.<br/> Aute et qui cupidatat laboris exercitation consequat. Enim est et anim do amet et quis sunt deserunt. Est tempor in fugiat Lorem nisi in id. Cupidatat nostrud do eiusmod reprehenderit nulla magna consectetur qui voluptate laboris. Cillum fugiat et deserunt labore occaecat dolore irure sit commodo mollit esse. Minim dolor ea dolor eu adipisicing deserunt do aliqua esse id.</p>
+                        <p className='About-p'>
+                            At CodeVant Technologies, we are committed to delivering innovative, technology-driven solutions that empower businesses to thrive in the digital age. Our expertise spans IoT, AI, and custom software development, helping organizations streamline processes and achieve their goals.<br/>
+                            With a focus on efficiency and growth, we collaborate closely with our clients to design solutions tailored to their unique needs. Our passion for technology and dedication to excellence drive us to continuously innovate and push the boundaries of what’s possible.
+                        </p>
                     </div>
                     <a href='#Projects'>View Projects</a>
                 </div>
             </div>
-            
         </section>
     </>
     )
