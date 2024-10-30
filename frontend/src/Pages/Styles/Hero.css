@@ -95,11 +95,9 @@
         height: 80vh;
     }
     .custom-shape-divider-bottom-1727621965{
-        bottom: 10vh;
+        display:none ;
     }
-    .custom-shape-divider-bottom-1727621965 svg{
-        width: 150%;
-    }
+    
 
 }
 @media (max-width:400px) {

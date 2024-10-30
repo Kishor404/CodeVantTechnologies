@@ -152,3 +152,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+@media (max-width:430px) {
+    footer{
+        font-size: 10pt;
+    }
+}
+@media (max-width:350px) {
+    footer{
+        font-size: 8pt;
+    }
+}
